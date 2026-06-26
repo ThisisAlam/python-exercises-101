@@ -1,0 +1,20 @@
+msg= "Welcome to python's exercises 101!"
+print(msg)
+print(msg+msg)
+print(msg*2)
+print(msg,msg)
+print(msg.upper())
+print(msg.lower())
+print(msg.capitalize())
+print(msg.title())
+print(len(msg))
+print(msg.count('python'))
+print(msg.count('o'))
+# msg= "Welcome to python's exercises 101!"
+      # 0123456789...
+print(msg[0])
+print(msg[-1])
+print(msg[-3])
+print(msg[2:])
+print(msg[2:7])
+print(msg[:7])
