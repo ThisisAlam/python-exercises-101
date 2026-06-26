@@ -6,5 +6,5 @@
 # - Did you capitalize the name
 name= input('Enter the name: ')
 distance_km= input('Enter the distance in km: ')
-distance_mi= float(distance_km)/1.609
+distance_mi= float(distance_km/1.609)
 print(f"Hi {name.title()}!, you have travelled a total distance of {distance_km}km, which becomes {distance_mi}miles ") 
