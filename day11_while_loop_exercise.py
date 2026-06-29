@@ -20,16 +20,27 @@ if not won:
     print("You lost the game")
     print("The user never guessed the correct word: python")
 
+
+
+
 #Modification 1: number 1-100, tell user if guess is too high/low,
 # and let them have 5-10 guesses.
 # Tip:( remember you won’t see  print statements during execution, 
 # so If you want to see prints during whle loop, 
 # print to the input box (This is specific to this platform)
-
-# Three Loop Questions:
-#1. What do I want to repeat?
-#  -> 
-#2. What do I want to change each time?
-#  -> 
-#3. How long should we repeat?
-#  -> 
+number = int(input("Enter a guess number: "))
+secret_number= 69
+won = True
+guesses= 0
+while number != secret_number:
+    guesses += 1
+    if number > secret_number and guesses < 10:
+        number= int(input('Too high! Enter a guess number: '))
+    elif number < secret_number and guesses < 10:
+        number= int(input('Too low! Enter a guess number: '))
+    elif guesses == 10:
+        won= False
+        print("Game Lost")
+        break
+if won:
+    print("Congratulations: you made the correct guess")   
