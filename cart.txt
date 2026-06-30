@@ -1,0 +1,13 @@
+==============================
+SHOPPING CART
+==============================
+Item: iron sword
+Price: 120
+Description: A reliable sword.
+------------------------------
+
+Item: bread
+Price: 5
+Description: Freshly baked.
+------------------------------
+
