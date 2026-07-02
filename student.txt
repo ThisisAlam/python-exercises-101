@@ -1,0 +1,3 @@
+Name: Fakhar
+Course: Python
+Level: Beginner
